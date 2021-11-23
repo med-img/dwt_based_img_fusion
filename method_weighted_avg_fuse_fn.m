@@ -16,7 +16,6 @@ function fsd_sband = method_weighted_avg_fuse_fn(inp_wt,Nlevels)
     w3=[4/21 2/21 1/21;4/21 2/21 1/21;4/21 2/21 1/21];
     w4=[8/35 4/35 2/35;8/35 4/35 2/35;4/35 2/35 1/35];
 
-
     NoOfBands=3*Nlevels+1;
 
     % weighted average method for low and high frequency subbands:
