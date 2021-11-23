@@ -1,0 +1,10 @@
+this code is for implementing equations of the paper:
+Pajares, Gonzalo, and Jesus Manuel De La Cruz. "A wavelet-based image fusion tutorial." Pattern recognition 37.9 (2004): 1855-1872.
+
+you can select one of the following three fusion methods:
+- simple average
+- weighted average
+- max activity level select
+
+the code is created by ourself
+
