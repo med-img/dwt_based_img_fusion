@@ -93,7 +93,3 @@ figure,imshow(uint8(temp)),title('DWT Fused Image');
 imwrite(uint8(temp),strcat(fused_path,'fused_1.png'),'png');
 save(strcat(fused_path,'fused_1.mat'), 'temp');
 
-
-%%%%% 
-% wavelet based image fusion method can also process 3D and RGB colored images
-% In case of data opening error, data dimension conversion and other problems, please adopt the functions ind2rgb and gray2ind£¬ or any feasible way you know. 
